@@ -3,7 +3,7 @@
 A responsive movie search application that allows users to search for movies and view results using the OMDb API.
 
 ## Live Demo
-https://eva-movie-search-app.vercel.app/
+eva-movie-search-app-5xho.vercel.app
 
 ## Features
 - Search movies by title
