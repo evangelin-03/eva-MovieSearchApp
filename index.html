@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Movie Search </title>
+        <link rel="stylesheet" href = "style.css">
+    </head>
+    <body>
+        <div class=" container">
+            <h1> MOVIE SEARCH</h1>
+        <div class = "search-section">
+            <input type="text" id="searchInput" placeholder="Search for a movie">
+            <button id="searchBtn">Search</button>
+        </div>
+        
+        <div id ="moviesContainer"></div>
+        <div id="movieModal" class="modal">
+            <div class="modal-content">
+                <span id="closeModal">x</span>
+                <div id="movieDetails"></div>
+            </div>
+        </div>
+        <div class="pagination">
+            <button id="prevBtn">Previous</button>
+            <button id="nextBtn">Next</button>
+        </div>
+        <div id="loader" class="loader"></div>
+    <script src="script.js"></script>
+    </body>
+</html>
