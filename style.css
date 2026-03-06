@@ -70,7 +70,7 @@ button{
     z-index:1000;
 }
 .modal-content{
-    background: white;
+    background: rgb(153, 212, 237);
     padding: 25px;
     border-radius : 10px;
     width: 500px;
@@ -112,4 +112,12 @@ button{
 @keyframes spim{
     0% { transform: rotate(0deg); }
     100%{ transform: rotate(360deg)}
+}
+
+.site-description{
+    text-align: center;
+    max-width : 700px;
+    margin:20px auto;
+    font-size:18px;
+
 }
